@@ -1,0 +1,183 @@
+<!-- https://github.com/jankapunkt/latexcv -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CV Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    /* Additional styling for progress bars */
+    .progress {
+      height: 20px;
+      background-color: #e9ecef;
+      margin-bottom: 10px;
+    }
+    .progress-bar {
+      line-height: 20px;
+    }
+    /* Heading style similar to the sample */
+    .cv-heading {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .profile-section h2 {
+      border-bottom: 2px solid #d62727;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      margin-top: 0;
+      font-weight: bold;
+      color: #333;
+    }
+    /* Red headings for sections like "SKILLS", "CONTACT" */
+    .section-title {
+      color: #d62727;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    /* Spacing for list items in Experience and Achievements */
+    .list-unstyled li {
+      margin-bottom: 5px;
+    }
+    /* Just for a bit of alignment for the contact icons */
+    .contact-info li {
+      margin-bottom: 8px;
+    }
+    .contact-info i {
+      width: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-5">
+  <!-- Row for the main layout -->
+  <div class="row">
+    
+    <!-- LEFT COLUMN -->
+    <div class="col-md-4">
+      <!-- Placeholder for profile picture -->
+      <div class="text-center mb-4">
+        <img src="YOUR-PHOTO.jpg" alt="Profile Photo" class="img-fluid rounded-circle" style="max-width: 150px;">
+      </div>
+
+      <!-- Skills Section -->
+      <h3 class="section-title">Skills</h3>
+
+      <!-- Example skill with progress bar -->
+      <p class="mb-1 fw-bold">Python</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%">5+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">Ansible</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%">5+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">Linux</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%">5+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">Open Source Tools</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%">5+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">Django</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%">5+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">HTML/CSS</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%">3+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">Javascript</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%">3+ yrs</div>
+      </div>
+
+      <p class="mb-1 fw-bold">GIT</p>
+      <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%">3+ yrs</div>
+      </div>
+
+      <!-- Contact Section -->
+      <h3 class="section-title">Contact</h3>
+      <ul class="list-unstyled contact-info">
+        <li><i class="bi bi-geo-alt"></i>Example St. 1, 12345 Somewhere</li>
+        <li><i class="bi bi-telephone"></i>+49 178 910 11 12 13</li>
+        <li><i class="bi bi-envelope"></i>contact@example.com</li>
+      </ul>
+      <!-- Placeholder for QR code -->
+      <div class="text-center">
+        <img src="YOUR-QR-CODE.png" alt="QR Code" style="max-width: 120px;">
+      </div>
+    </div>
+    
+    <!-- RIGHT COLUMN -->
+    <div class="col-md-8">
+      <!-- Heading with Name -->
+      <div class="cv-heading">
+        <h1 class="h3 mb-0">ILYA RUMYANTSEV</h1>
+        <small class="text-uppercase">Freelance Automation Consultant and Developer</small>
+      </div>
+
+      <!-- Profile Section -->
+      <div class="profile-section mb-4">
+        <h2>Profile</h2>
+        <p>IT Consultant with strong theoretical skills and a passion for OpenSource software. DevOps Engineer, specialized both in automation and in custom application development, experienced with large projects and heterogeneous infrastructures. The link between development and operations, comfortable in both.</p>
+        <p>Customer-oriented and structured method of working, focused on quality and maintainability. Highly motivated to work in a team, both comfortable in big companies as in small teams.</p>
+      </div>
+
+      <!-- Work Experience Section -->
+      <h2 class="section-title">Work Experience</h2>
+      <h5 class="mb-1">DevOps/FullStack developer 
+        <span class="fw-normal text-secondary">| Sep 15 - NOW</span>
+      </h5>
+      <p class="text-danger fw-bold">Research and Development</p>
+      <p>
+        A large IAM project required an intuitive interface for role-based access and rights management. At the same time, new workflows for role-based access, life time and monitoring had to be established.
+      </p>
+      <ul class="list-unstyled">
+        <li>Creation of a web portal for role- and rights management</li>
+        <li>Establishing a connection to the existing MicroFocus role solution</li>
+        <li>Development of new role-based workflows and processes, as well as training and support</li>
+        <li>Maintenance of existing infrastructure</li>
+      </ul>
+      <p class="fw-bold">Technologies include:</p>
+      <ul class="list-unstyled">
+        <li>Django for the roles- and rights management tool backend (REST interface)</li>
+        <li>Angular for the easy frontend interaction</li>
+        <li>HTML5/CSS3/Bootstrap3 for the frontend</li>
+        <li>Ansible + Docker for 1-click deployments</li>
+      </ul>
+      <p class="fw-bold">Achievements include:</p>
+      <ul class="list-unstyled">
+        <li>A web based tool for an intuitive role assignment and administration</li>
+        <li>Online overview of company structures, projects, etc</li>
+        <li>Tools for role review, reporting and troubleshooting</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Optionally include Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
